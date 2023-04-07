@@ -18,7 +18,7 @@ openai:
 # 知识星球配置
 # https://zsxq.com/
 zsxq:
-  cookie: ${ZSXQ_COOKIE:zsxq_access_token=6E06D126-2461-F138-C47B-0C134D6739F7_03B36EFFDBF8584E; abtest_env=product; sajssdk_2015_cross_new_user=1; zsxqsessionid=ef764c35c4c9029316965d6203e3680e; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22184258212285552%22%2C%22first_id%22%3A%221874d292a1a631-0a24c02c4d0085-1e525634-1296000-1874d292a1bae6%22%2C%22props%22%3A%7B%7D%2C%22%24device_id%22%3A%221874d292a1a631-0a24c02c4d0085-1e525634-1296000-1874d292a1bae6%22%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg3NGYyYWU2YzRlMTYtMGYyODMwZTFkZWI1OWYtMWU1MjU2MzQtMTI5NjAwMC0xODc0ZjJhZTZjNWIwZSIsIiRpZGVudGl0eV9sb2dpbl9pZCI6IjE4NDI1ODIxMjI4NTU1MiJ9%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%22184258212285552%22%7D%7D}
+  cookie: ${ZSXQ_COOKIE:abtest_env=product; sajssdk_2015_cross_new_user=1; zsxqsessionid=ef764c35c4c9029316965d6203e3680e; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22184258212285552%22%2C%22first_id%22%3A%221874d292a1a631-0a24c02c4d0085-1e525634-1296000-1874d292a1bae6%22%2C%22props%22%3A%7B%7D%2C%22%24device_id%22%3A%221874d292a1a631-0a24c02c4d0085-1e525634-1296000-1874d292a1bae6%22%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg3NGYyYWU2YzRlMTYtMGYyODMwZTFkZWI1OWYtMWU1MjU2MzQtMTI5NjAwMC0xODc0ZjJhZTZjNWIwZSIsIiRpZGVudGl0eV9sb2dpbl9pZCI6IjE4NDI1ODIxMjI4NTU1MiJ9%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%22184258212285552%22%7D%7D; zsxq_access_token=45930925-C5EE-5F42-0FBF-CF5C4C518651_FAF3B5584646178B}
   groupId: ${ZSXQ_GROUP_ID:48884824512548}
   # 是否提醒提问者
   silenced: ${ZSXQ_SILENCED:true}
@@ -34,7 +34,7 @@ task:
   list:
     - name: task1 #任务名
       monitor: zsxq #监控者
-      answerer: openai #回答者
+      answerer: default #回答者
       cron: '0/30 * * * * ?' #执行周期
 #    - name: task2
 #      monitor: default
