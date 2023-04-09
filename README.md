@@ -1,8 +1,8 @@
 # yu-auto-reply 自动回复
 
-> 作者：[程序员鱼皮](https://github.com/liyupi)
+> 作者：[程序员常焜瑜](https://github.com/changcheng1234)
 > 
-> 编程学习圈：[编程导航知识星球](https://yupi.icu)
+> 编程学习圈：[编程导航知识星球](https://wx.zsxq.com/dweb2/index/group/48884824512548)
 
 [toc]
 
@@ -124,7 +124,7 @@ task:
 
 如有项目本身的问题，欢迎提 issues 和 PR；
 
-如有编程方面的问题、或者需要项目教学，请看 [编程导航知识星球](https://yupi.icu)
+如有编程方面的问题、或者需要项目教学，请看 [编程导航知识星球](https://wx.zsxq.com/dweb2/index/group/48884824512548)
 
 
 ## 问答
