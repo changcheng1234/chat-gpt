@@ -8,8 +8,6 @@
 
 基于 Java Spring Boot 的平台监控及自动回复工具，支持灵活地配置多个监控任务，支持一键部署！
 
-演示视频：https://www.bilibili.com/video/BV1WX4y1o7aL
-
 ![](doc/演示.png)
 
 本项目采用多种设计模式，解耦监控者及回答者，可以灵活配置多个不同平台的监控，并绑定不同类型的自动回复。
@@ -112,19 +110,6 @@ task:
 
 2）修改 `factory/AnswererFactory` 的 `createAnswerer` 方法，补充创建你自己的回答者
 
-
-## 免费 ChatGPT 交流群
-
-![](doc/ChatGPT交流.png)
-
-
-## 欢迎贡献
-
-**作者平时非常忙** ，本项目也是仅用了几个小时抽空做的，开源出来给大家参考，但是 PR 和 Issues 响应不会很及时，感谢理解！
-
-如有项目本身的问题，欢迎提 issues 和 PR；
-
-如有编程方面的问题、或者需要项目教学，请看 [编程导航知识星球](https://wx.zsxq.com/dweb2/index/group/48884824512548)
 
 
 ## 问答
